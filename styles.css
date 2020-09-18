@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  font-family: "Source Sans Pro";
+}
+h1{
+  text-align:center;
+}
+fieldset{
+  margin-top: 100px;
+  margin-left:50px;
+  margin-right:50px;
+  padding-bottom: 100px;
+}
+
+label{
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+.btn1{
+  font-weight: bold;
+  position: relative;
+  left: 5em;
+  top: 2em;
+  height: 3em;
+
+}
+.btn1:hover {
+    background-color: #FDE108;
+    color: black;
+}
+
+.btn2{
+  font-weight: bold;
+  height: 3em;
+  width: 4vw;
+  position: relative;
+  left: 6em;
+  top:2em;
+}
+
+.btn2:hover {
+    background-color: #FDE108;
+    color: black;
+}
+
+#num1{
+    display: inline-block;
+		text-align: left;
+		float: right;
+}
+
+#num2{
+    display: inline-block;
+		text-align: left;
+		float: right;
+}
+
+#container{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7em;
+
+}
